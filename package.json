@@ -1,0 +1,11 @@
+{
+  "name" : "lab-babel",
+  "version" : "1.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  },
+  "scripts" : {
+      "build" : "babel src -d lib",
+      "run" : "node lib/basic-fatures.js"
+  }
+}
